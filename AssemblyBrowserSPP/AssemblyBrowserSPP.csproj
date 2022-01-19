@@ -100,6 +100,7 @@
     <ProjectReference Include="..\AssemblyGetInfolib\AssemblyGetInfolib.csproj">
       <Project>{22cde563-5345-4250-b5cb-6f97e45f0b6a}</Project>
       <Name>AssemblyGetInfolib</Name>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
