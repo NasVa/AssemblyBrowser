@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyBrowserSPP", "AssemblyBrowserSPP\AssemblyBrowserSPP.csproj", "{C00FCE67-12B6-4149-A00C-22A6043598C3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{22CDE563-5345-4250-B5CB-6F97E45F0B6A} = {22CDE563-5345-4250-B5CB-6F97E45F0B6A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyGetInfolib", "AssemblyGetInfolib\AssemblyGetInfolib.csproj", "{22CDE563-5345-4250-B5CB-6F97E45F0B6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{C00FCE67-12B6-4149-A00C-22A6043598C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C00FCE67-12B6-4149-A00C-22A6043598C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C00FCE67-12B6-4149-A00C-22A6043598C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22CDE563-5345-4250-B5CB-6F97E45F0B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CDE563-5345-4250-B5CB-6F97E45F0B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CDE563-5345-4250-B5CB-6F97E45F0B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CDE563-5345-4250-B5CB-6F97E45F0B6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

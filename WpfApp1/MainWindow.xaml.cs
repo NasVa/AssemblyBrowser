@@ -13,19 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AssemblyBrowserSPP
+namespace WpfApp1
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
-            var root = new ObservableCollection<Node>();
-            AssemblyTreeView.ItemsSource = root;
-            DataContext = new AssemblyReader(root, new AssemblyGetInfo());
         }
     }
 }
